@@ -1,0 +1,213 @@
+body{
+    background-color: white;
+}
+
+/* header sytles */
+
+header {
+    background-color: navy;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+
+/* button style */
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: lightslategray;
+    color: white;
+}
+
+button:active {
+    background-color: darkslategray;
+    box-shadow: 0 5px #030da1;
+    transform: translateY(4px);
+}
+
+h1 {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+
+/* section one flex grow and shrink */
+
+.section-one {
+    background-color: blueviolet;
+    
+    
+}
+
+.flexgrow-container {
+    display: flex;
+}
+
+.box1 {
+    background-color: #030da1;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+.box2 {
+
+    background-color: #030da1;
+    
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box3 {
+
+    background-color: #030da1;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+/* section 2 center item */
+
+.section-two {
+    background-color: navy;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* section 3 youtube video */
+
+.section-three {
+    background-color: navy;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+iframe { 
+    padding: 5px;
+    
+}
+
+
+/* section 4 embed audio */
+
+.section-four {
+    background-color: navy;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma,
+     sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* section 5 media items */
+
+.section-five {
+    background-color: navy;
+    
+
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+
+}
+
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
+
+/* footer goes here */
+
+footer {
+    background-color: navy;
+    height: 30px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: white;
+    padding: 10px 0px;
+
+}
+
+
+/* button-one-section */
+
+.button-one-section {
+    background-color: cornflowerblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-top-img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+}
