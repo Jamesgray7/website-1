@@ -5,7 +5,7 @@ body{
 /* header sytles */
 
 header {
-    background-color: navy;
+    background-color: #344A5F;
     padding: 10px 0px 10px 0px;
     
     
@@ -29,8 +29,8 @@ button:hover {
 }
 
 button:active {
-    background-color: darkslategray;
-    box-shadow: 0 5px #030da1;
+    background-color: #344A5F;
+    box-shadow: 0 5px black;
     transform: translateY(4px);
 }
 
@@ -41,6 +41,13 @@ h1 {
     color: white;
 }
 
+.opening-paragraph {
+    font-family: 'Readex Pro', sans-serif;
+    color: #344A5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 h2 {
     font-family: 'Readex Pro', sans-serif;
@@ -133,7 +140,7 @@ li {
 }
 
 .true-false {
-    padding: 0 30%;
+    padding: 0 35%;
 }
 
 #TypeTask {
