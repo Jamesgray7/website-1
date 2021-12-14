@@ -149,6 +149,7 @@ li {
 
 .reflection-paragraph {
     font-family: 'Readex Pro', sans-serif;
+    padding: 10px;
     font-size: 20px;
     color: white;
 
@@ -159,7 +160,22 @@ li {
 }
 
 #UXTask {
-    background-color: #030da1;
+    background-color: #D4B80C;
+}
+
+.UxWireframe {
+    padding: 0 35%;
+    margin: 5px;
+    align-items: left;
+    justify-content: left;
+    
+}
+.UxFlowchart {
+    padding: 0 35%;
+    margin: 5px;
+    align-items: right;
+    justify-content: right;
+    
 }
 
 /* section 3 youtube video */
@@ -169,7 +185,7 @@ li {
     height: 800px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -229,7 +245,7 @@ figcaption {
 /* footer goes here */
 
 footer {
-    background-color: navy;
+    background-color: #344A5F;
     height: 30px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
