@@ -186,6 +186,10 @@ li {
     
 }
 
+#Overview {
+    background-color: black;
+}
+
 /* section 3 youtube video */
 
 .section-three {
@@ -253,13 +257,13 @@ figcaption {
 /* footer goes here */
 
 footer {
-    background-color: #344A5F;
+    background-color: #9cafc0;
     height: 30px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-small;
-    color: white;
-    padding: 10px 0px;
+    color: black;
+    padding: 20px 0px;
 
 }
 
